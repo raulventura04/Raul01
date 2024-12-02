@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #1a365d;   /* Deep blue for backend */
+  --color-secondary: #2D9B83; /* Teal green for biology */
+  --color-accent: #4FD1C5;    /* Light teal for accents */
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+}
